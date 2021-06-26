@@ -864,28 +864,28 @@
     <!--  Modal Window  -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-close-btn" data-modal-close type="button">
-          <svg class="modal-close-btn-icon">
+        <button class="modal__close-btn" data-modal-close type="button">
+          <svg class="modal__btn-icon">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <form action="#" method="GET" class="contact-form">
-          <div class="asd">
-            <p class="contact-form-title">
+          <div class="contact-form__container">
+            <p class="contact-form__title">
               Оставьте свои данные, мы вам перезвоним
             </p>
-            <div class="contact-form-label-container">
+            <div class="contact-form__label-container">
               <input
                 type="text"
                 name="user-name"
                 id="user-name"
-                class="contact-form-input"
+                class="contact-form__input"
                 minlength="2"
                 required
                 autofocus
               />
-              <label for="user-name" class="contact-form-label">Имя</label>
-              <svg class="contact-form-svg">
+              <label for="user-name" class="contact-form__label">Имя</label>
+              <svg class="contact-form__svg">
                 <use
                   href="./images/icons.svg#icon-person"
                   width="18px"
@@ -893,18 +893,18 @@
                 ></use>
               </svg>
             </div>
-            <div class="contact-form-label-container">
+            <div class="contact-form__label-container">
               <input
                 type="tel"
                 name="user-phone"
                 id="user-phone"
-                class="contact-form-input"
+                class="contact-form__input"
                 required
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
                 title="067-111-11-11"
               />
-              <label for="user-phone" class="contact-form-label">Телефон</label>
-              <svg class="contact-form-svg">
+              <label for="user-phone" class="contact-form__label">Телефон</label>
+              <svg class="contact-form__svg">
                 <use
                   href="./images/icons.svg#icon-phone"
                   width="18px"
@@ -912,16 +912,16 @@
                 ></use>
               </svg>
             </div>
-            <div class="contact-form-label-container">
+            <div class="contact-form__label-container">
               <input
                 type="email"
                 name="user-email"
                 id="user-emai"
-                class="contact-form-input"
+                class="contact-form__input"
                 required
               />
-              <label for="user-email" class="contact-form-label">Почта</label>
-              <svg class="contact-form-svg">
+              <label for="user-email" class="contact-form__label">Почта</label>
+              <svg class="contact-form__svg">
                 <use
                   href="./images/icons.svg#icon-email"
                   width="18px"
@@ -929,29 +929,29 @@
                 ></use>
               </svg>
             </div>
-            <div class="contact-form-label-container">
+            <div class="contact-form__label-container">
               <textarea
                 name="user-comment"
-                class="contact-form-comment"
+                class="contact-form__comment"
                 id="user-comment"
                 placeholder="Введите текст"
               ></textarea>
-              <label for="user-comment" class="contact-form-label"
+              <label for="user-comment" class="contact-form__label"
                 >Комментарий</label
               >
             </div>
             <input
               type="checkbox"
               name="policy-admit"
-              class="contact-form-policy-input visually-hidden"
+              class="contact-form__policy-input visually-hidden"
               id="policy-admit"
               required
             />
-            <label for="policy-admit" class="contact-form-label-policy"
+            <label for="policy-admit" class="contact-form__label-policy"
               >Соглашаюсь с рассылкой и принимаю
-              <a class="policy-contract" href="">Условия договора</a></label
+              <a class="policy__contract" href="">Условия договора</a></label
             >
-            <button type="submit" class="contact-form-btn">Отправить</button>
+            <button type="submit" class="contact-form__btn">Отправить</button>
           </div>
         </form>
       </div>

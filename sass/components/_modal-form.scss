@@ -7,11 +7,11 @@
   position: relative;
 }
 
-.asd {
+.contact-form__container {
   width: 100%;
 }
 
-.contact-form-title {
+.contact-form__title {
   text-align: center;
   margin-bottom: 30px;
   color: var(--section-title);
@@ -25,7 +25,7 @@
   }
 }
 
-.contact-form-label {
+.contact-form__label {
   position: absolute;
   top: -18px;
   left: 0;
@@ -36,7 +36,7 @@
   letter-spacing: 0.01em;
 }
 
-.contact-form-label-container {
+.contact-form__label-container {
   position: relative;
   @media screen and (min-width: $tablet) {
     &:not(:last-child) {
@@ -45,7 +45,7 @@
   }
 }
 
-.contact-form-input {
+.contact-form__input {
   padding: 0;
   width: 100%;
   height: 38px;
@@ -59,22 +59,22 @@
 }
 
 
-.contact-form-input:focus ~ .contact-form-svg {
+.contact-form__input:focus ~ .contact-form__svg {
   fill: var(--accent-color);
 }
 
-.contact-form-input:focus {
+.contact-form__input:focus {
   border: 1px solid var(--accent-color);
 }
 
-.contact-form-svg {
+.contact-form__svg {
   position: absolute;
   top: 11px;
   left: 15px;
   pointer-events: none;
 }
 
-.contact-form-comment {
+.contact-form__comment {
   padding: 12px 16px;
   width: 100%;
   height: 120px;
@@ -109,7 +109,7 @@
   letter-spacing: 0.03em;
 }
 
-.contact-form-label-policy {
+.contact-form__label-policy {
   display: inline-block;
   color: var(--description-text-color);
   font-weight: 400;
@@ -136,11 +136,11 @@
   }
 }
 
-.policy-contract {
+.policy__contract {
   color: var(--accent-color);
 }
 
-.contact-form-policy-input:checked + .contact-form-label-policy::before {
+.contact-form__policy-input:checked + .contact-form__label-policy::before {
   background-image: url(../images/icon-check.svg);
   fill: var(--page-navigation-text-color);
   background-origin: border-box;
@@ -148,12 +148,12 @@
   border: transparent;
 }
 
-.contact-form-policy-input:focus + .contact-form-label-policy::before {
+.contact-form__policy-input:focus + .contact-form__label-policy::before {
   border: 2px solid var(--accent-color);
   border-radius: 4px;
 }
 
-.contact-form-btn {
+.contact-form__btn {
   display: block;
   min-width: 200px;
   min-height: 50px;

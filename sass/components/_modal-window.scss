@@ -33,11 +33,11 @@
 
     transform: translate(-50%, -50%) scale(1);
   }
-  
+
   @media (max-height:600px){ Top:0; left:50%; transform: translateX(-50%)}
 }
 
-.modal-close-btn {
+.modal__close-btn {
   position: fixed;
   display: flex;
   align-items: center;
@@ -58,7 +58,7 @@
   }
 }
 
-.modal-close-btn-icon {
+.modal__btn-icon {
   fill: currentColor;
   width: 18px;
   height: 18px;
