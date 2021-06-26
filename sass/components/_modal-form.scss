@@ -7,6 +7,10 @@
   position: relative;
 }
 
+.asd {
+  width: 100%;
+}
+
 .contact-form-title {
   text-align: center;
   margin-bottom: 30px;
@@ -53,6 +57,7 @@
   cursor: pointer;
   transition: background-color 250ms linear;
 }
+
 
 .contact-form-input:focus ~ .contact-form-svg {
   fill: var(--accent-color);
@@ -105,12 +110,18 @@
 }
 
 .contact-form-label-policy {
-  padding-left: 12px;
+  display: inline-block;
   color: var(--description-text-color);
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.66;
   letter-spacing: 0.03em;
+
+  @media screen and (min-width: 1200px) {
+    & {font-size: 14px;
+      line-height: 1.71;}
+    
+  }
 
   &::before {
     display: inline-block;
