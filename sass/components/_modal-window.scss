@@ -11,6 +11,8 @@
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms linear;
 
+  
+
   @media screen and (max-width: 767px) {
     width: calc(100% - 2 * 15px);
   }
@@ -30,6 +32,7 @@
 
     transform: translate(-50%, -50%) scale(1);
   }
+  @media (max-height:600px){ Top:0; left:50%; transform: translateX(-50%)}
 }
 
 .modal-close-btn {
