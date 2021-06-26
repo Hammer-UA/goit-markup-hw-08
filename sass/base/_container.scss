@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+
+  @media screen and (min-width: $desktop) {
+    max-width: 1200px;
+  }
+
+  @media screen and (max-width: 1199px) {
+    max-width: 738px;
+  }
+
+  @media screen and (max-width: 767px) {
+    max-width: 450px;
+  }
+
+  @media screen and (max-width: 479px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  &.no-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

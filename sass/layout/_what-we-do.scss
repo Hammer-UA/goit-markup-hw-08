@@ -1,0 +1,46 @@
+.what-we-do {
+  padding-top: 0;
+  padding-bottom: 94px;
+
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.what-we-do__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.what-we-do__item {
+  position: relative;
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 90px) / 3);
+}
+
+.what-we-do__image {
+  width: 100%;
+
+  @media screen and (min-width: $desktop) {
+    width: 370px;
+  }
+}
+
+.what-we-do__text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 27px 0 28px 0;
+  text-align: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--text-color);
+  background: var(--card-bg-color);
+}
