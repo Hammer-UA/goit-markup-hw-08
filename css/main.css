@@ -417,16 +417,6 @@ body.modal-open {
   border: 1px solid var(--accent-color);
 }
 
-.contact-form-checkbox {
-  color: var(--description-text-color);
-  margin: 0;
-  width: 100%;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-
 .contact-form__label-policy {
   display: inline-block;
   color: var(--description-text-color);

@@ -629,8 +629,7 @@ body.modal-open {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   width: 100%;
 }
 
@@ -667,6 +666,7 @@ body.modal-open {
 }
 
 .card-list__item {
+  display: flex;
   margin-left: 30px;
   margin-top: 30px;
   max-width: 450px;
@@ -689,7 +689,8 @@ body.modal-open {
 }
 
 .card-list__link {
-  display: block;
+  display: flex;
+  flex-direction: column;
   padding-top: 0;
   transition: box-shadow 250ms linear;
 }
@@ -733,6 +734,7 @@ body.modal-open {
   border-bottom: 1px solid var(--card-border-color);
   border-left: 1px solid var(--card-border-color);
   border-right: 1px solid var(--card-border-color);
+  flex-grow: 1;
 }
 
 .card-list__name {
